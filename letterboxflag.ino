@@ -21,12 +21,11 @@ void setup() {
   // Set sharp IR sensor model
   sensor.setModel(SharpDistSensor::GP2Y0A51SK0F_5V_DS);
   
-  // Serial.println("inizializzazione completata ...");
+  Serial.println("inizializzazione completata ...");
 
 }
 
 void rise_flag () {
-<<<<<<< HEAD
   myservo.write(60);
 }
 
@@ -41,7 +40,7 @@ void loop() {
   if ( distance <= boxHeight ) { rise_flag(); }
   else { lower_flag(); }
 
-  // Serial.println(distance);
+  Serial.println(distance);
 
   delay(1000);
 }
