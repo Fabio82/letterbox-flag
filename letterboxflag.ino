@@ -17,7 +17,7 @@ int distance;
 
 void setup() {
   Serial.begin(9600);
-  
+
   // Set sharp IR sensor model
   sensor.setModel(SharpDistSensor::GP2Y0A51SK0F_5V_DS);
   myservo.attach(servoPin);
@@ -26,12 +26,13 @@ void setup() {
 }
 
 void rise_flag () {
-  myservo.write(90);
+  myservo.write(60);
 }
 
 void lower_flag () {
-  myservo.write(180);
+  myservo.write(160);
 }
+
 void loop() {
   distance = sensor.getDist();
 
