@@ -1,5 +1,6 @@
 # letterbox-flag
 just rises the flag when mail arrives
+https://youtube.com/shorts/W5IM6ULXQEk?feature=share
 
 
 I got a sharp 0A51SK 15cm distance infrared sensor info here: https://www.pololu.com/product/2450
