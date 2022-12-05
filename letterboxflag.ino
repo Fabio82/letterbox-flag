@@ -16,12 +16,12 @@ Servo myservo;
 int distance;
 
 void setup() {
-  Serial.begin(9600);
+  //Serial.begin(9600);
 
   // Set sharp IR sensor model
   sensor.setModel(SharpDistSensor::GP2Y0A51SK0F_5V_DS);
-  
-  Serial.println("inizializzazione completata ...");
+  myservo.attach(servoPin);
+  //Serial.println("inizializzazione completata ...");
 
 }
 
@@ -34,14 +34,15 @@ void lower_flag () {
 }
 
 void loop() {
-
+  myservo.attach(servoPin);
   distance = sensor.getDist();
 
   if ( distance <= boxHeight ) { rise_flag(); }
   else { lower_flag(); }
+  
 
-  Serial.println(distance);
+  //Serial.println(distance);
 
-  delay(1000);
+  delay(100);
 }
 
