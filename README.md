@@ -1,6 +1,5 @@
 # letterbox-flag
-just rises the flag when mail arrives
-https://youtube.com/shorts/W5IM6ULXQEk?feature=share
+I made a siple controller that just rises the flag when mail arrives. It is mounted on a standard US mailbox and it detects the presence of mail, newspaper, other, placed inside of it with a IR sensor placed under the bottom.
 
 
 I got a sharp 0A51SK 15cm distance infrared sensor info here: https://www.pololu.com/product/2450
@@ -13,10 +12,10 @@ an arduino nano every
 
 a letterbox
 
-a flag
+a flag (I modified the original flag and attached directly on the servo motor )
 
 a servo motor
 
 12V AC input from the door/bell circuit of the house
 
-so I decided to put them together and auto rise the flag.
+a switch that activate the circuit only when the letterbox is opened.
