@@ -1,5 +1,5 @@
 # letterbox-flag
-I made a siple controller that just rises the flag when mail arrives. It is mounted on a standard US mailbox and it detects the presence of mail, newspaper, other, placed inside of it with a IR sensor placed under the bottom.
+I made a simple controller that just rises the flag when mail arrives. It is mounted on a standard US mailbox and it detects the presence of mail, newspapers, other, placed inside of it with a IR sensor under the bottom.
 
 
 I got a sharp 0A51SK 15cm distance infrared sensor info here: https://www.pololu.com/product/2450
